@@ -1,0 +1,40 @@
+...
+doing this for the sake of keeping track of the initializations and whatnot
+
+Most used cmd in linux:
+Opening a linux terminal: sudo apt update
+        -	To run anything in administrator mode. i.e. giving full authority
+        -	Update package manager 
+Clear the terminal: clear
+sudo apt-get update –y
+To see all the folders and files in the directory: ls or ls- al to show hidden files 
+To create a directory (folder): mkdir name of directory you’re creating
+To change directory: cd name of new directory/ or cd .. to return root directory
+To remove/delete a directory: rmdir name of directory
+To check the directory we are in: pwd i.e project working directory
+To create a file: touch filename.txt
+To open a file: vim filename.txt (vim is a text editor in linux) (same for any other file with filename.py for python files)
+To write in an open txt file:
+        -	Press i for inside mode
+        -	Write your text
+        -	Esc to leave inside mode
+        -	:wq to close and save
+To see content of the file: cat filename.txt
+To execute a python file: python3 filename.py
+To copy a file to another directory: cp file to copy ’directory to copy to
+To move a file to another directory: mv file to move’ directory to move to
+To delete a file: rm file to delete
+To open manual for any command: man command
+To open user file usage: htop
+To open file permissions: chmod (pair this with chmod calculator website to identify what access what file has)
+To assign file permissions to files: get the code from chmod calculator website and on the terminal chmod code’ file to grant access to
+To compress a file: tar cf file to compress to’ file to compress
+To decompress: untar -xvf file to decompress
+To zip a file: gzip 
+To see the user: whoami
+To create user: sudo useradd new user
+To delete user: sudo userdel user to delete
+To show date and time: date
+To echo a message: echo ‘hello’
+To show the first few content of a file: head filename.txt
+To show the tail contents of a file: tail filename.txt

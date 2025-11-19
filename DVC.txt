@@ -1,0 +1,20 @@
+To use DVC for pipeline tracking, we need Git.
+-	Download and install anaconda
+-	In local directory, open gitbash with anaconda initialized
+-	In the same local directory, open your code editor like VSC
+
+In vsc, first step is to set up your virtual environment
+-	To do that, in gitbash anaconda, conda create –n test python=3.11 –y (test here is the environment name. it’s up to you)
+-	To activate the environment, conda activate test
+-	To install dependencies and requirements, pip install –r requirements.txt (requirements.txt should be a file in your vsc with all your requirements packages listed such as scikit-learn, xgboost, nltk, pandas, numpy, dvc, PyYAML)
+-	…
+-	After we have created our pipeline, we create a file in vsc named dvc.yaml (a configuration file)
+-	In the yaml file, we write the commands
+
+
+DVC Commands: after we have written the commands in the yaml file, in the gitbash terminal
+-	First step is to initialize git, git init
+-	Then initialize the dvc, dvc init
+-	This is the main file that runs the dvc.yaml file commands. dvc repro (this won’t run if it has already been run before and/or no new changes to the code base i.e. pipeline tracking). 
+-	To show your pipeline, dvc dag
+-	to show the metric outputs dvc metrics show

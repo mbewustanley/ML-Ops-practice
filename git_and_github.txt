@@ -1,0 +1,21 @@
+Local and remote repository setup:
+-	After creating repo on github, click on code(green), HTTPS and copy the link
+-	Open your local folder on your system as well as gitbash in that local folder
+-	Then clone the github environment in your local folder on the gitbash terminal with git clone copied link
+-	Use cd repo name/ to change directory to the folder you created
+
+
+Code management with git:
+-	Best practice for coding on your pc is to open your VSC files from the local git folder to initialize it to your git environment.
+-	After creating a file or updating an old one, such changes exist only in your local environment. To move to github…
+-	Open gitbash terminal, use git status to see newly added files to be committed and pushed.
+-	To add, use git add filename, or git add . to add all unadded files
+-	To commit, use git commit –m “your commit message”
+-	To push to github, git push origin main (main is the name of the branch)
+-	In the case where you want to pull files other developers have pushed, use git pull to update your code base
+
+
+Branch management:
+-	To check available branches, use git branch
+-	To create a new branch, use git checkout –b branch name
+-	To switch back to main branch, git checkout main
