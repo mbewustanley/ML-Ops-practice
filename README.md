@@ -3,9 +3,9 @@ my first hand interactions and experience with ML Ops
 
 # Build and track ML Pipelines with DVC
 
-# How to run
+## How to run
 
-conda create -n test python=3.11 -y
+conda create -n testenv python=3.11 -y
 
 conda activate testenv
 
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 
 
-# DVC COMMANDS
+## DVC COMMANDS
 
 git init
 
